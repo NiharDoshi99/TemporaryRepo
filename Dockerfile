@@ -8,4 +8,8 @@ WORKDIR /Users/nihardoshi/code/TemporaryRepo/docker
 
 COPY demo1.py ./
 
-CMD ["python", "./demo1.py"]
+COPY models ./models
+
+CMD ["ls"] 
+
+CMD ["python3", "./demo1.py"]
